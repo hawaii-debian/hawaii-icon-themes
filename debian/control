@@ -1,0 +1,13 @@
+Source: hawaii-icon-themes
+Section: misc
+Priority: optional
+Maintainer: Rohan Garg <shadeslayer@solembum>
+Build-Depends: debhelper (>= 9), cmake
+Standards-Version: 3.9.5
+Homepage: https://github.com/hawaii-desktop/hawaii-icon-themes
+
+Package: hawaii-icon-themes
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: icons for the hawaii desktop
+ Hawaii icon theme for the Hawaii desktop
